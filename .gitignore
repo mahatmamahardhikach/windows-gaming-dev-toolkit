@@ -1,0 +1,24 @@
+# Local evidence can contain machine names, paths, or usernames.
+reports/*
+!reports/.gitkeep
+state/*
+!state/.gitkeep
+
+# Crash dumps, logs, installers, archives, and database dumps.
+*.dmp
+*.hdmp
+*.log
+*.etl
+*.evtx
+*.exe
+*.msi
+*.zip
+*.7z
+*.rar
+*.dump
+*.sql
+
+# PowerShell/editor artifacts.
+*.clixml
+.vscode/
+.idea/
